@@ -1,7 +1,7 @@
 #ifndef SIGMAANDROIDWRAPPER_UTILS_H
 #define SIGMAANDROIDWRAPPER_UTILS_H
 
-#include "libsigma/src/coin.h"
+#include "../libsigma/src/coin.h"
 
 #define ZEROCOIN_TX_VERSION_3 30
 #define ZEROCOIN_TX_VERSION_3_1 31

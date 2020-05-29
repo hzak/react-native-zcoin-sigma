@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.platforms    = { :ios => "9.0" }
   s.source       = { :git => "https://github.com/github_account/react-native-zcoin-sigma.git", :tag => "#{s.version}" }
 
-  s.source_files = ["ios/*.{h,m,mm,hpp,cpp,swift}", "ios/libsigma/src/*.{h,c,hpp,cpp}",
+  s.source_files = ["ios/*.{h,m,mm,hpp,cpp}", "ios/libsigma/src/*.{h,c,hpp,cpp}",
                     "ios/libsigma/secp256k1/include/*.{h,hpp}", "ios/libsigma/bitcoin/**/*.{h,c,hpp,cpp}"]
   s.requires_arc = true
 

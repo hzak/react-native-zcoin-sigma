@@ -1,12 +1,8 @@
 #include "Utils.h"
 #include <iostream>
 #include <sstream>
-#include "libsigma/bitcoin/uint256.h"
-#include "libsigma/bitcoin/streams.h"
-#include "libsigma/src/coinspend.h"
-#include "libsigma/src/sigma_primitives.h"
-#include "libsigma/secp256k1/include/secp256k1_group.hpp"
-#include "libsigma/secp256k1/include/secp256k1_scalar.hpp"
+#include "../libsigma/bitcoin/streams.h"
+#include "../libsigma/src/coinspend.h"
 
 unsigned char *hex2bin(const char *hexstr) {
     size_t length = strlen(hexstr) / 2;
