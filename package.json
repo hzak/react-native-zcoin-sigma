@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "build": "echo OK",
-    "build:native": "./build-secp"
+    "build:native": "./build-secp",
+    "postinstall": "grep url .gitmodules | sed 's/.*= //' | while read url; do git clone $url; done
   },
   "repository": {
     "type": "git",
