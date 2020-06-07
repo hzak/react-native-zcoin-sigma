@@ -1,0 +1,3 @@
+[submodule "native-libs/libsigma"]
+	path = native-libs/libsigma
+	url = https://github.com/zcoinofficial/libsigma.git
